@@ -25,5 +25,5 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
 
     - name: Build with Maven and Unit test
-      run: ./mvnwcleantest
+      run: ./mvnw clean test
 

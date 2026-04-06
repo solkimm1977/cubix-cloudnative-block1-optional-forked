@@ -25,4 +25,4 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
 
     - name: Build with Maven And Integration Test
-      run: ./mvnwcleanintegration-test
+      run: ./mvnw clean integration-test
